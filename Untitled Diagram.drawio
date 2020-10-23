@@ -1,28 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T19:47:09.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="emxkStcLIa6HugI3uY-R" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-23T19:52:56.204Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="Hn9HPgrToLUHRKARltEw" version="13.8.1" type="github">
   <diagram id="gNEncinw4pv7p97WwHMH" name="Page-1">
-    <mxGraphModel dx="1117" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1763" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ztYITYpNCJNHEoaw5Kxi-27" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="50" y="200" width="610" height="540" as="geometry" />
+          <mxGeometry x="42" y="200" width="610" height="450" as="geometry" />
         </mxCell>
         <mxCell id="ztYITYpNCJNHEoaw5Kxi-1" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="180" y="230" width="140" height="460" as="geometry" />
+          <mxGeometry x="77" y="220" width="140" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="ztYITYpNCJNHEoaw5Kxi-2" value="App Slice - CI/CD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="240" width="100" height="20" as="geometry" />
+        <mxCell id="ztYITYpNCJNHEoaw5Kxi-2" value="PR Build" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="240" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ztYITYpNCJNHEoaw5Kxi-3" value="Build" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Gear.svg;" vertex="1" parent="1">
-          <mxGeometry x="218" y="270" width="50" height="50" as="geometry" />
+          <mxGeometry x="114" y="270" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ztYITYpNCJNHEoaw5Kxi-4" value="Test" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Gear.svg;imageBackground=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="215" y="346" width="54" height="54" as="geometry" />
+          <mxGeometry x="111" y="346" width="54" height="54" as="geometry" />
         </mxCell>
         <mxCell id="ztYITYpNCJNHEoaw5Kxi-5" value="Validate&lt;br&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Gear.svg;" vertex="1" parent="1">
-          <mxGeometry x="215" y="430" width="50" height="50" as="geometry" />
+          <mxGeometry x="111" y="430" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ztYITYpNCJNHEoaw5Kxi-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.435;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ztYITYpNCJNHEoaw5Kxi-9" target="ztYITYpNCJNHEoaw5Kxi-1">
+        <mxCell id="ztYITYpNCJNHEoaw5Kxi-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.322;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ztYITYpNCJNHEoaw5Kxi-9" target="ztYITYpNCJNHEoaw5Kxi-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ztYITYpNCJNHEoaw5Kxi-9" value="Code Repo" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/TFS_VC_Repository.svg;" vertex="1" parent="1">
@@ -42,27 +42,6 @@
         <mxCell id="ztYITYpNCJNHEoaw5Kxi-15" value="Developers" style="verticalLabelPosition=bottom;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.design.users;" vertex="1" parent="1">
           <mxGeometry x="60" y="115" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ztYITYpNCJNHEoaw5Kxi-17" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="360" y="230" width="140" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="ztYITYpNCJNHEoaw5Kxi-18" value="App Slice - CI/CD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="240" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="ztYITYpNCJNHEoaw5Kxi-19" value="Build" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Gear.svg;" vertex="1" parent="1">
-          <mxGeometry x="398" y="270" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ztYITYpNCJNHEoaw5Kxi-20" value="Test" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Gear.svg;imageBackground=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="395" y="346" width="54" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="ztYITYpNCJNHEoaw5Kxi-21" value="Validate&lt;br&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Gear.svg;" vertex="1" parent="1">
-          <mxGeometry x="395" y="430" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ztYITYpNCJNHEoaw5Kxi-22" value="Deploy" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Gear.svg;" vertex="1" parent="1">
-          <mxGeometry x="395" y="520" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ztYITYpNCJNHEoaw5Kxi-23" value="Release" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Gear.svg;" vertex="1" parent="1">
-          <mxGeometry x="398" y="610" width="50" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="ztYITYpNCJNHEoaw5Kxi-28" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="760" y="200" width="610" height="540" as="geometry" />
         </mxCell>
@@ -80,6 +59,42 @@
             <mxPoint x="509.99999999999983" y="125.00000000000011" as="targetPoint" />
             <mxPoint x="509.99999999999983" y="200.0000000000001" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ztYITYpNCJNHEoaw5Kxi-37" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="255" y="220" width="140" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="ztYITYpNCJNHEoaw5Kxi-17" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="ztYITYpNCJNHEoaw5Kxi-37">
+          <mxGeometry width="140" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="ztYITYpNCJNHEoaw5Kxi-18" value="Dev Build" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ztYITYpNCJNHEoaw5Kxi-37">
+          <mxGeometry x="20" y="20" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ztYITYpNCJNHEoaw5Kxi-19" value="Build" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Gear.svg;" vertex="1" parent="ztYITYpNCJNHEoaw5Kxi-37">
+          <mxGeometry x="39" y="50" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ztYITYpNCJNHEoaw5Kxi-20" value="Test" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Gear.svg;imageBackground=#ffffff;" vertex="1" parent="ztYITYpNCJNHEoaw5Kxi-37">
+          <mxGeometry x="36" y="126" width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ztYITYpNCJNHEoaw5Kxi-21" value="Validate&lt;br&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Gear.svg;" vertex="1" parent="ztYITYpNCJNHEoaw5Kxi-37">
+          <mxGeometry x="38" y="225" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ztYITYpNCJNHEoaw5Kxi-38" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="422" y="220" width="140" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="ztYITYpNCJNHEoaw5Kxi-39" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="ztYITYpNCJNHEoaw5Kxi-38">
+          <mxGeometry width="140" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="ztYITYpNCJNHEoaw5Kxi-40" value="Master Build" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ztYITYpNCJNHEoaw5Kxi-38">
+          <mxGeometry x="20" y="20" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ztYITYpNCJNHEoaw5Kxi-41" value="Build" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Gear.svg;" vertex="1" parent="ztYITYpNCJNHEoaw5Kxi-38">
+          <mxGeometry x="39" y="50" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ztYITYpNCJNHEoaw5Kxi-42" value="Test" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Gear.svg;imageBackground=#ffffff;" vertex="1" parent="ztYITYpNCJNHEoaw5Kxi-38">
+          <mxGeometry x="36" y="126" width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ztYITYpNCJNHEoaw5Kxi-43" value="Validate&lt;br&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Gear.svg;" vertex="1" parent="ztYITYpNCJNHEoaw5Kxi-38">
+          <mxGeometry x="38" y="225" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
